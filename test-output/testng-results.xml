@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35098" started-at="2020-05-18T20:41:37Z" finished-at="2020-05-18T20:42:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35098" started-at="2020-05-18T20:41:37Z" finished-at="2020-05-18T20:42:12Z">
+      <class name="Tests.OrderAnItem">
+        <test-method status="PASS" signature="StartDriver()[pri:0, instance:Tests.OrderAnItem@6e75aa0d]" name="StartDriver" is-config="true" duration-ms="13923" started-at="2020-05-18T20:41:23Z" finished-at="2020-05-18T20:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="PlaceAnOrderTestCase()[pri:1, instance:Tests.OrderAnItem@6e75aa0d]" name="PlaceAnOrderTestCase" duration-ms="32182" started-at="2020-05-18T20:41:37Z" description="Purchase a Blouse" finished-at="2020-05-18T20:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceAnOrderTestCase -->
+        <test-method status="PASS" signature="CheclSuccessfullMessage()[pri:0, instance:Tests.OrderAnItem@6e75aa0d]" name="CheclSuccessfullMessage" duration-ms="2897" started-at="2020-05-18T20:42:09Z" depends-on-methods="Tests.OrderAnItem.PlaceAnOrderTestCase" finished-at="2020-05-18T20:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheclSuccessfullMessage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Tests.OrderAnItem@6e75aa0d]" name="closeDriver" is-config="true" duration-ms="1399" started-at="2020-05-18T20:42:12Z" finished-at="2020-05-18T20:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.OrderAnItem -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
